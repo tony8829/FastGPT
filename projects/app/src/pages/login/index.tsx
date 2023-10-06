@@ -86,12 +86,12 @@ const Login = () => {
         >
           {isPc && (
             <Image
-              src={'/icon/loginLeft.svg'}
+              src={'/icon/loginLeft.jpg'}
               order={pageType === PageTypeEnum.login ? 0 : 2}
               flex={'1 0 0'}
               w="0"
               maxW={'600px'}
-              height={'100%'}
+              height={'auto'}
               maxH={'450px'}
               alt=""
               loading={'lazy'}

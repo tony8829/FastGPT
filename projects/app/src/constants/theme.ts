@@ -257,7 +257,7 @@ export const theme = extendTheme({
     }
   },
   fonts: {
-    body: '-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"'
+    body: 'IBM Plex Sans,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"'
   },
   fontSizes: {
     xs: '10px',

@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Box, Flex, useDisclosure } from '@chakra-ui/react';
+import { Box, Flex, useDisclosure, Image } from '@chakra-ui/react';
 import { feConfigs } from '@/store/static';
 import { useTranslation } from 'react-i18next';
 import Avatar from '@/components/Avatar';
@@ -84,7 +84,8 @@ const Footer = () => {
     >
       <Box flex={1}>
         <Flex alignItems={'center'}>
-          <Avatar src="/icon/logo.svg" w={['24px', '30px']} />
+          <Avatar src="/icon/logo.svg" w={['24px', '42px']} />
+          <Image src={'/icon/deptLogo.png'} w="220px" height={'auto'} loading={'lazy'} />
           <Box
             className="textlg"
             fontSize={['xl', '2xl']}
