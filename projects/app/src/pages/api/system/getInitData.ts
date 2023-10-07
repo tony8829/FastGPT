@@ -38,12 +38,12 @@ const defaultSystemEnv: SystemEnvType = {
   pgIvfflatProbe: 20
 };
 const defaultFeConfigs: FeConfigsType = {
-  show_emptyChat: true,
-  show_contact: true,
-  show_git: true,
-  show_doc: true,
-  systemTitle: 'FastGPT',
-  authorText: 'Made by FastGPT Team.',
+  show_emptyChat: false,
+  show_contact: false,
+  show_git: false,
+  show_doc: false,
+  systemTitle: 'FsscAI+',
+  authorText: 'Made by IBM HCM Team.',
   limit: {
     exportLimitMinutes: 0
   },
