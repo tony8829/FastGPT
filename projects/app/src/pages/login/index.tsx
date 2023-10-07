@@ -72,6 +72,7 @@ const Login = () => {
         px={[0, '10vw']}
       >
         <Flex
+          className={styles.loginContainer}
           height="100%"
           w={'100%'}
           maxW={'1240px'}
@@ -108,6 +109,7 @@ const Login = () => {
             py={5}
             px={10}
             borderRadius={isPc ? 'md' : 'none'}
+            backgroundColor={'white'}
           >
             <DynamicComponent type={pageType} />
 

@@ -1,5 +1,9 @@
 .loginPage {
-  // background: url('/icon/login-bg.svg') no-repeat;
+  background: url('/icon/login-bg.svg') no-repeat;
+  // background-color:#fff;
   background-size: cover;
   user-select: none;
+}
+.loginContainer {
+  background-color: #e0e0e0;
 }
